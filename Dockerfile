@@ -9,5 +9,9 @@ ADD ./run.sh /opt/
 
 ENV DEVPOD_REPO https://github.com/moander/devpod-aspnet-example-slim
 
+ENV DEVPOD_BRANCH master
+
+EXPOSE 5000
+
 CMD [ "/opt/run.sh" ]
 
